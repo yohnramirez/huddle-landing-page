@@ -55,6 +55,8 @@ body{
     font-size: 16px;
     background-color: white;
     color: rgb(85, 85, 85);
+    -webkit-box-shadow: 1px 4px 19px -6px #000000; 
+    box-shadow: 1px 4px 19px -6px #000000;
 }
 .header-body-text button:hover{
     background-color: var(--softMagenta);
