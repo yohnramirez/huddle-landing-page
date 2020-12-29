@@ -8,6 +8,7 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
     background: url(../images/bg-desktop.svg) no-repeat, var(--violet);
+    background-size: cover, cover;
 }
 
 .container{
@@ -57,6 +58,7 @@ body{
     color: rgb(85, 85, 85);
     -webkit-box-shadow: 1px 4px 19px -6px #000000; 
     box-shadow: 1px 4px 19px -6px #000000;
+    cursor: pointer;
 }
 .header-body-text button:hover{
     background-color: var(--softMagenta);
@@ -81,6 +83,7 @@ body{
     border: 1px solid white;
     border-radius: 60px;
     padding: .2em;
+    cursor: pointer;
 }
 .footer-social i:hover{
     color: var(--softMagenta);
